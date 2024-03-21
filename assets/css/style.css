@@ -68,6 +68,9 @@ nav .logo img {
   height: 100%;
   object-fit: contain;
 }
+nav .logo #logo_red {
+  display: none;
+}
 nav ul {
   display: flex;
   align-items: center;
@@ -96,6 +99,23 @@ nav .nav_icons li a i {
 }
 nav .nav_icons li a i:hover {
   color: #D61C22;
+}
+
+.navbaractive {
+  transition: 0.5s ease-in-out;
+  background-color: white;
+}
+.navbaractive .logo #logo_white {
+  display: none;
+}
+.navbaractive .logo #logo_red {
+  display: block;
+}
+.navbaractive ul li a {
+  color: #222222;
+}
+.navbaractive ul li a i {
+  color: #222222;
 }
 
 main #section_slider {
@@ -188,4 +208,8 @@ main #section_slider .paginations span {
 main #section_slider .paginations span:hover {
   border-color: #fff;
   background-color: #D61C22;
+}
+
+body {
+  height: 500vh;
 }/*# sourceMappingURL=style.css.map */

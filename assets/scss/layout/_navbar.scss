@@ -16,6 +16,9 @@ nav{
             height: 100%;
             object-fit: contain;
         }
+        #logo_red{
+            display: none;
+        }
     }
     ul{
         display: flex;
@@ -51,6 +54,28 @@ nav{
                         color: $red_color;
                         
                     }
+                }
+            }
+        }
+    }
+}
+.navbaractive{
+    transition: .5s ease-in-out;
+    background-color: white;
+    .logo{
+        #logo_white{
+            display: none;
+        }
+        #logo_red{
+            display: block;
+        }
+    }
+    ul{
+        li{
+            a{
+                color: $black_color;
+                i{
+                    color: $black_color;
                 }
             }
         }
