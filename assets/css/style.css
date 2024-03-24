@@ -173,7 +173,6 @@ main #section_slider .btns div {
   color: white;
   position: absolute;
   background-color: black;
-  opacity: 0;
   top: 50%;
   opacity: 0.5;
   transition: 0.4s all;
@@ -183,9 +182,13 @@ main #section_slider .btns div:hover {
 }
 main #section_slider .btns .left_btn {
   left: 50px;
+  opacity: 0;
+  transition: 0.5s all;
 }
 main #section_slider .btns .right_btn {
   right: 50px;
+  opacity: 0;
+  transition: 0.5s all;
 }
 main #section_slider .paginations {
   display: flex;
@@ -207,6 +210,414 @@ main #section_slider .paginations span {
 }
 main #section_slider .paginations span:hover {
   border-color: #fff;
+  background-color: #D61C22;
+}
+main #section_slider:hover .btns .left_btn {
+  opacity: 0.5;
+}
+main #section_slider:hover .btns .right_btn {
+  opacity: 0.5;
+}
+main #story {
+  padding: 120px 0 105px;
+}
+main #story .story_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main #story .story_text span {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #D61C22;
+}
+main #story .story_text h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 35px;
+}
+main #story .story_text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin-bottom: 22px;
+}
+main #story .story_text a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+main #story .story_img div {
+  width: 390px;
+  height: 390px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+main #story .story_img div img {
+  width: 390px;
+  height: 390px;
+  transition: 0.4s all;
+}
+main #story .story_img div img:hover {
+  transform: scale(1.1);
+}
+main #bg_atachment_home {
+  width: 100%;
+  height: 394px;
+  background-image: url("	https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 135px 0;
+}
+main #bg_atachment_home .texts span {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #D61C22;
+}
+main #bg_atachment_home .texts h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 6px;
+}
+main #blog {
+  padding: 80px 0 130px;
+}
+main #blog .sect_header span {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+}
+main #blog .sect_header h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+}
+main #blog .cards .card_img {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+main #blog .cards .card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.4s all;
+}
+main #blog .cards .card_img img:hover {
+  transform: scale(1.1);
+}
+main #blog .cards .card_desc {
+  padding-top: 35px;
+}
+main #blog .cards .card_desc h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 13px;
+  transition: all 0.4s;
+}
+main #blog .cards .card_desc h3:hover {
+  color: #D61C22;
+}
+main #blog .cards .card_desc p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+main #blog .cards .card_desc a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.4s;
+}
+main #blog .cards .card_desc a:hover {
+  color: #D61C22;
+}
+main #discover {
+  padding: 80px;
+  background-color: #f5f2ec;
+}
+main #discover .sect_header span {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+}
+main #discover .sect_header h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+}
+main #discover .discover_img {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+main #discover .discover_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.4s all;
+}
+main #discover .discover_img img:hover {
+  transform: scale(1.1);
+}
+main #discover .discover_img a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 0.9;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.4s all;
+}
+main #discover .discover_img a:hover {
+  background-color: #D61C22;
+  color: #fff;
+}
+main #discover .heigth_490 {
+  height: 490px;
+}
+main #discover .heigth_235 {
+  height: 235px;
+}
+main #reservation {
+  padding: 80px;
+  background-color: #efefef;
+}
+main #reservation .heading span {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+}
+main #reservation .heading h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+}
+main #reservation .reserv_inputs {
+  margin-bottom: 23px;
+}
+main #reservation .reserv_inputs span {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}
+main #reservation .reserv_inputs div {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #d9d9d9;
+  overflow: hidden;
+}
+main #reservation .reserv_inputs div input {
+  padding: 0 10px;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+main #reservation .reserv_inputs div select {
+  padding: 0 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+main #reservation .form_btn {
+  text-align: center;
+}
+main #reservation .form_btn button {
+  background: #111111;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 150px;
+  height: 40px;
+  transition: 0.4s all;
+}
+main #reservation .form_btn button:hover {
+  background-color: #D61C22;
+  border: none;
+}
+main #reservation .resev_img div {
+  width: 390px;
+  height: 390px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+main #reservation .resev_img div img {
+  width: 390px;
+  height: 390px;
+  transition: 0.4s all;
+}
+main #reservation .resev_img div img:hover {
+  transform: scale(1.1);
+}
+main #video {
+  width: 100%;
+  height: 720px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/pato/images/bg-cover-video-02.jpg");
+}
+main #video .content_video {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #video .content_video .video_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #video .content_video .video_items span {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+}
+main #video .content_video .video_items h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+}
+main #video .content_video .video_items .play_btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+main #video .content_video .video_items .play_btn i {
+  font-size: 24px;
+  color: #222222;
+}
+main #specialist {
+  background-color: #ececec;
+  padding: 85px 0;
+}
+main #specialist form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main #specialist form label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+main #specialist form input {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid #d9d9d9;
+  padding: 15px 25px;
+}
+main #specialist form button {
+  padding: 15px 35px;
+  background: #111111;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.4s all;
+}
+main #specialist form button:hover {
   background-color: #D61C22;
 }
 
