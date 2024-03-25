@@ -678,7 +678,7 @@ main #video .content_video .video_items .play_btn i {
   }
 }
 main #filter {
-  padding: 80px;
+  padding: 80px 0;
 }
 main #filter .hide {
   animation: hide 0.3s ease 0s 1 normal forwards;
@@ -784,6 +784,81 @@ main .cards:hover img {
 }
 main .cards:hover .overlay {
   opacity: 1;
+}
+
+main #chefs {
+  padding: 80px 0;
+}
+main #chefs .section_title span {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #D61C22;
+}
+main #chefs .section_title h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+}
+main #chefs .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 35px;
+}
+main #chefs .card .card_img {
+  margin-bottom: 20px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #ec1d25;
+}
+main #chefs .card .card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main #chefs .card .card_desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main #chefs .card .card_desc a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333333;
+  letter-spacing: 2px;
+  transition: 0.4s all;
+  padding-bottom: 6px;
+}
+main #chefs .card .card_desc a:hover {
+  color: #ec1d25;
+}
+main #chefs .card .card_desc span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #666666;
+  text-transform: uppercase;
+  line-height: 1.8;
+  padding-bottom: 25px;
+}
+main #chefs .card .card_desc p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
 }
 
 footer {
