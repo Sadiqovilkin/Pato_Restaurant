@@ -1,0 +1,49 @@
+#specialist {
+    background-color: #ececec;
+    padding: 85px 0;
+
+    form {
+        display: flex;
+        align-items: center;
+
+        gap: 20px;
+
+        label {
+            font-family: $Poppins_family;
+            font-weight: 500;
+            font-size: 22px;
+            color: #333333;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        input {
+            font-family: Montserrat;
+            font-weight: 400;
+            font-size: 14px;
+            color: #666666;
+            border-radius: 10px;
+            border: none;
+            border: 2px solid #d9d9d9;
+            padding: 15px 25px;
+        }
+
+        button {
+            padding: 15px 35px;
+            background: $dark_black_color;
+            border-radius: 10px;
+            font-family: $Montserrat_family;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.1;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: .4s all;
+
+            &:hover {
+                background-color: $red_color;
+            }
+        }
+    }
+}
