@@ -74,6 +74,50 @@ main #pages_tittle .tittle_word h1 {
   word-spacing: 6px;
 }
 
+#specialist {
+  background-color: #ececec;
+  padding: 85px 0;
+}
+#specialist form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#specialist form label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#specialist form input {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid #d9d9d9;
+  padding: 15px 25px;
+}
+#specialist form button {
+  padding: 15px 35px;
+  background: #111111;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.4s all;
+}
+#specialist form button:hover {
+  background-color: #D61C22;
+}
+
 nav {
   border-top: 4px solid #D61C22;
   padding: 20px 0;
@@ -610,49 +654,6 @@ main #video .content_video .video_items .play_btn i {
   font-size: 24px;
   color: #222222;
 }
-main #specialist {
-  background-color: #ececec;
-  padding: 85px 0;
-}
-main #specialist form {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-main #specialist form label {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 22px;
-  color: #333333;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-main #specialist form input {
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 14px;
-  color: #666666;
-  border-radius: 10px;
-  border: none;
-  border: 2px solid #d9d9d9;
-  padding: 15px 25px;
-}
-main #specialist form button {
-  padding: 15px 35px;
-  background: #111111;
-  border-radius: 10px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.1;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: 0.4s all;
-}
-main #specialist form button:hover {
-  background-color: #D61C22;
-}
 
 @media (max-width: 768px) {
   main #section_slider .slider_desc h6 {
@@ -676,6 +677,115 @@ main #specialist form button:hover {
     flex-direction: column;
   }
 }
+main #filter {
+  padding: 80px;
+}
+main #filter .hide {
+  animation: hide 0.3s ease 0s 1 normal forwards;
+}
+main #filter .show {
+  animation: show 0.3s ease 0s 1 normal forwards;
+}
+@keyframes hide {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+}
+@keyframes show {
+  0% {
+    transform: scale(0);
+    width: 0;
+    height: 0;
+    margin: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+main .filters {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+main .filters .filter {
+  margin: 20px;
+  border-radius: 10px;
+  padding: 6px 11px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 15px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.4s all;
+}
+main .filters .filter:hover {
+  cursor: pointer;
+  background-color: #111111;
+  color: white;
+}
+main .filters .filter:active {
+  cursor: pointer;
+  background-color: #111111;
+  color: white;
+}
+main .filters .active {
+  background-color: #111111;
+  color: white;
+}
+main .cards {
+  width: 100%;
+  height: 340px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+main .cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s all;
+}
+main .cards .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 28, 34, 0.7294117647);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.4s all;
+}
+main .cards .overlay .icons {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .cards .overlay .icons i {
+  font-size: 24px;
+}
+main .cards:hover img {
+  transform: scale(1.1);
+}
+main .cards:hover .overlay {
+  opacity: 1;
+}
+
 footer {
   background-color: #222222;
   padding-top: 70px;
