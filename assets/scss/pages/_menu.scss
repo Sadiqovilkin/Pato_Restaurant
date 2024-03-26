@@ -1,3 +1,106 @@
 main{
-    
+    #bigMenu{
+        padding: 80px 0;
+        .menutittle{
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 1.2;
+            color: #222222;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding-bottom: 25px;
+        }
+        .menu_item{
+            margin-bottom: 36px;
+            div{
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                a{
+                    font-family: $Poppins_family;
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #333333;
+                    line-height: 1.4;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    text-wrap: nowrap;
+                    transition: .4s all;
+                    &:hover{
+                    color: $red_color;
+                    }
+                    
+                }
+                .uderline{
+                    width: 100%;
+                    height: 10px;
+                    border-bottom: 4px dotted #b3b3b3;
+                }
+                .price{
+                    font-family: $Montserrat_family;
+                    font-weight: 400;
+                    font-size: 22px;
+                    color: #333333;
+                    line-height: 1.2;
+                    text-transform: uppercase;
+                }
+            }
+            .item_txt{
+                font-family: $Montserrat_family;
+                font-weight: 400;
+                font-size: 13px;
+                color: #666666;
+                line-height: 1.7;
+            }
+        }
+    }
+    #menuImg{
+        padding: 80px 0;
+        .menu_card{
+            display: flex;
+            flex-direction: row;
+            margin-bottom:30px;
+            .card_img{
+                width: 160px;
+                height: 120px;
+                border-radius: 10px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .card_desc{
+                margin-left: 15px;
+                display: flex;
+                flex-direction: column;
+                a{
+                    font-family: Poppins;
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #333333;
+                    line-height: 1.4;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+                span{
+                    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.7;
+                }
+                h3{
+                    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 22px;
+    color: #333333;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 20px;
+                }
+            }
+        }
+    }
 }
