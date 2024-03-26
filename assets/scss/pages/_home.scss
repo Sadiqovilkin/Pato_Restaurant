@@ -51,9 +51,7 @@ main {
 
         .btns {
             div {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend %center;
                 width: 60px;
                 height: 60px;
                 font-size: 18px;
@@ -126,11 +124,9 @@ main {
         padding: 120px 0 105px;
 
         .story_text {
-            display: flex;
+            @extend %center;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+            
 
             span {
                 @extend %span;
@@ -141,12 +137,7 @@ main {
             }
 
             p {
-                font-family: $Montserrat_family;
-                font-weight: 400;
-                font-size: 15px;
-                line-height: 1.7;
-                color: #666666;
-                margin-bottom: 22px;
+                @extend %main_p;
             }
 
             a {
@@ -167,8 +158,7 @@ main {
                 border-radius: 10px;
 
                 img {
-                    width: 390px;
-                    height: 390px;
+                        @include Img($obj_fit:cover,$obj_pos:center);
                     transition: .4s all;
 
                     &:hover {
@@ -229,10 +219,7 @@ main {
                 border-radius: 10px;
 
                 img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    object-position: center;
+                     @include Img($obj_fit:cover,$obj_pos:center);
                     transition: .4s all;
 
                     &:hover {
@@ -261,12 +248,7 @@ main {
 
                 p {
 
-                    font-family: $Montserrat_family;
-                    font-weight: 400;
-                    font-size: 15px;
-                    line-height: 1.7;
-                    color: #666666;
-                    margin: 0px;
+                    @extend %main_p;
                     margin-bottom: 20px;
                 }
 
@@ -310,10 +292,7 @@ main {
             position: relative;
 
             img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: center;
+                @include Img($obj_fit:cover,$obj_pos:center);
                 transition: .4s all;
 
                 &:hover {
@@ -441,8 +420,7 @@ main {
                 border-radius: 10px;
 
                 img {
-                    width: 390px;
-                    height: 390px;
+                     @include Img($obj_fit:cover,$obj_pos:center);
                     transition: .4s all;
 
                     &:hover {

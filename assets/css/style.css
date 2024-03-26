@@ -52,6 +52,13 @@ table {
   border-spacing: 0;
 }
 
+main #story .story_text, main #section_slider .btns div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 main #blogs .blog_main .blo4 .card_desc a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -73,7 +80,7 @@ main #blogs .sidebar .popular ul li .text a {
   word-spacing: 2px;
 }
 
-main #blogs .blog_main .blo4 .card_desc p {
+main #blogs .blog_main .blo4 .card_desc p, main #blog .cards .card_desc p, main #story .story_text p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -300,9 +307,6 @@ main #section_slider .slider_desc a:hover {
   color: #fff;
 }
 main #section_slider .btns div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 60px;
   height: 60px;
   font-size: 18px;
@@ -360,19 +364,7 @@ main #story {
   padding: 120px 0 105px;
 }
 main #story .story_text {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-main #story .story_text p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.7;
-  color: #666666;
-  margin-bottom: 22px;
 }
 main #story .story_text a {
   font-family: "Montserrat", sans-serif;
@@ -389,8 +381,10 @@ main #story .story_img div {
   border-radius: 10px;
 }
 main #story .story_img div img {
-  width: 390px;
-  height: 390px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   transition: 0.4s all;
 }
 main #story .story_img div img:hover {
@@ -452,12 +446,6 @@ main #blog .cards .card_desc h3:hover {
   color: #D61C22;
 }
 main #blog .cards .card_desc p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
   margin-bottom: 20px;
 }
 main #blog .cards .card_desc a {
@@ -586,8 +574,10 @@ main #reservation .resev_img div {
   border-radius: 10px;
 }
 main #reservation .resev_img div img {
-  width: 390px;
-  height: 390px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   transition: 0.4s all;
 }
 main #reservation .resev_img div img:hover {
