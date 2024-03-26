@@ -965,6 +965,102 @@ main #menuImg .menu_card .card_desc h3 {
   margin-top: 20px;
 }
 
+main #reservation {
+  background-color: #efefef;
+}
+main #reservation .info_card h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+}
+main #reservation .info_card p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  max-width: 520px;
+}
+main #reservation .info_card p a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #ec1d25;
+}
+
+main #map {
+  padding: 80px 0;
+}
+main #contactForm {
+  padding: 80px 0;
+}
+main #contactForm .reserv_inputs {
+  margin-bottom: 23px;
+}
+main #contactForm .reserv_inputs span {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}
+main #contactForm .reserv_inputs div {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #d9d9d9;
+  overflow: hidden;
+}
+main #contactForm .reserv_inputs div input {
+  padding: 0 10px;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+main #contactForm .reserv_inputs div textarea {
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+main #contactForm .reserv_inputs .txtarea {
+  height: 180px;
+}
+main #contactForm .form_btn {
+  text-align: center;
+}
+main #contactForm .form_btn button {
+  background: #111111;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 150px;
+  height: 40px;
+  transition: 0.4s all;
+}
+main #contactForm .form_btn button:hover {
+  background-color: #D61C22;
+  border: none;
+}
+
 footer {
   background-color: #222222;
   padding-top: 70px;

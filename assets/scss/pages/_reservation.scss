@@ -1,0 +1,32 @@
+main{
+    #reservation{
+        background-color: #efefef;
+        .info_card{
+            h4{
+                font-family: $Poppins_family;
+                font-weight: 500;
+                font-size: 22px;
+                color: #333333;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                margin-bottom: 18px;
+            }
+            p{
+                font-family: $Montserrat_family;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 1.7;
+                color: #666666;
+                margin: 0px;
+                max-width: 520px;
+                a{
+                    font-family: $Montserrat_family;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 1.7;
+                    color: #ec1d25;
+                }
+            }
+        }
+    }
+}
