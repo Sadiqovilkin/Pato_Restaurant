@@ -82,13 +82,7 @@ main {
                     gap: 15px;
 
                     a {
-                        font-family: $Poppins_family;
-                        font-weight: 400;
-                        font-size: 30px;
-                        line-height: 1.2;
-                        color: #222222;
-                        text-transform: uppercase;
-                        letter-spacing: 3px;
+                        @extend %main_a_30;
 
                     }
 
@@ -106,22 +100,12 @@ main {
                     }
 
                     p {
-                        font-family: Montserrat;
-                        font-weight: 400;
-                        font-size: 15px;
-                        line-height: 1.7;
-                        color: #666666;
-                        margin: 0px;
+                        @extend %main_p;
                     }
 
                     .continiue_btn {
-                        margin-top: 2 0px;
-                        font-family: $Montserrat_family;
-                        font-weight: 400;
-                        font-size: 12px;
-                        color: #222222;
-                        text-transform: uppercase;
-                        letter-spacing: 1px;
+    margin-top: 20px;
+                        @extend %form_btn;
                     }
                 }
             }
@@ -229,14 +213,7 @@ main {
                         display: flex;
                         flex-direction: column;
                             a {
-                                font-family: $Poppins_family;
-                                font-weight: 500;
-                                font-size: 12px;
-                                color: #222222;
-                                line-height: 1.5;
-                                text-transform: uppercase;
-                                letter-spacing: 1px;
-                                word-spacing: 2px;
+                                @extend %main_a_12;
                                 margin-bottom: 8px;
                             }
 

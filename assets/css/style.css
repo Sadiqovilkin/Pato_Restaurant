@@ -52,6 +52,63 @@ table {
   border-spacing: 0;
 }
 
+main #blogs .blog_main .blo4 .card_desc a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+main #blogs .sidebar .popular ul li .text a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #222222;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+main #blogs .blog_main .blo4 .card_desc p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+}
+
+main #blogs .blog_main .blo4 .card_desc .continiue_btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+main #video .content_video .video_items span, main #reservation .heading span, main #discover .sect_header span, main #blog .sect_header span, main #bg_atachment_home .texts span, main #story .story_text span {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #D61C22;
+}
+
+main #video .content_video .video_items h3, main #reservation .heading h3, main #discover .sect_header h3, main #blog .sect_header h3, main #story .story_text h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 35px;
+}
+
 main #pages_tittle {
   width: 100%;
   height: 545px;
@@ -309,22 +366,6 @@ main #story .story_text {
   align-items: center;
   text-align: center;
 }
-main #story .story_text span {
-  font-family: "Courgette", cursive;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #D61C22;
-}
-main #story .story_text h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.2;
-  color: #222222;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  margin-bottom: 35px;
-}
 main #story .story_text p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -365,12 +406,6 @@ main #bg_atachment_home {
   background-size: cover;
   padding: 135px 0;
 }
-main #bg_atachment_home .texts span {
-  font-family: "Courgette", cursive;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #D61C22;
-}
 main #bg_atachment_home .texts h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -383,22 +418,6 @@ main #bg_atachment_home .texts h3 {
 }
 main #blog {
   padding: 80px 0 130px;
-}
-main #blog .sect_header span {
-  font-family: "Courgette", cursive;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #d61c22;
-}
-main #blog .sect_header h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.2;
-  color: #222222;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  word-spacing: 8px;
 }
 main #blog .cards .card_img {
   width: 100%;
@@ -457,22 +476,6 @@ main #discover {
   padding: 80px 0;
   background-color: #f5f2ec;
 }
-main #discover .sect_header span {
-  font-family: "Courgette", cursive;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #d61c22;
-}
-main #discover .sect_header h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.2;
-  color: #222222;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  word-spacing: 8px;
-}
 main #discover .discover_img {
   width: 100%;
   border-radius: 10px;
@@ -519,22 +522,6 @@ main #discover .heigth_235 {
 main #reservation {
   padding: 80px 0;
   background-color: #efefef;
-}
-main #reservation .heading span {
-  font-family: "Courgette", cursive;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #d61c22;
-}
-main #reservation .heading h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.2;
-  color: #222222;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  word-spacing: 8px;
 }
 main #reservation .reserv_inputs {
   margin-bottom: 23px;
@@ -627,22 +614,6 @@ main #video .content_video .video_items {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-main #video .content_video .video_items span {
-  font-family: "Courgette", cursive;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #d61c22;
-}
-main #video .content_video .video_items h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 1.2;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  word-spacing: 8px;
 }
 main #video .content_video .video_items .play_btn {
   margin-top: 30px;
@@ -1138,15 +1109,6 @@ main #blogs .blog_main .blo4 .card_desc {
   flex-direction: column;
   gap: 15px;
 }
-main #blogs .blog_main .blo4 .card_desc a {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 1.2;
-  color: #222222;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
 main #blogs .blog_main .blo4 .card_desc ul {
   display: flex;
 }
@@ -1158,22 +1120,8 @@ main #blogs .blog_main .blo4 .card_desc ul li {
   line-height: 1.5;
   margin-right: 6px;
 }
-main #blogs .blog_main .blo4 .card_desc p {
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
-}
 main #blogs .blog_main .blo4 .card_desc .continiue_btn {
-  margin-top: 2 0px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  color: #222222;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  margin-top: 20px;
 }
 main #blogs .sidebar {
   padding: 80px 0 80px 0px;
@@ -1255,14 +1203,6 @@ main #blogs .sidebar .popular ul li .text {
   flex-direction: column;
 }
 main #blogs .sidebar .popular ul li .text a {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  color: #222222;
-  line-height: 1.5;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 2px;
   margin-bottom: 8px;
 }
 main #blogs .sidebar .popular ul li .text span {

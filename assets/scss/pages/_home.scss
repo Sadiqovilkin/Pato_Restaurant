@@ -133,21 +133,11 @@ main {
             text-align: center;
 
             span {
-                font-family: $Courge_family;
-                font-size: 30px;
-                line-height: 1.2;
-                color: $red_color;
+                @extend %span;
             }
 
             h3 {
-                font-family: $Poppins_family;
-                font-weight: 700;
-                font-size: 50px;
-                line-height: 1.2;
-                color: $black_color;
-                text-transform: uppercase;
-                letter-spacing: 6px;
-                margin-bottom: 35px;
+                @extend %h3;
             }
 
             p {
@@ -201,10 +191,7 @@ main {
 
         .texts {
             span {
-                font-family: $Courge_family;
-                font-size: 30px;
-                line-height: 1.2;
-                color: $red_color;
+                @extend %span;
             }
 
             h3 {
@@ -225,21 +212,12 @@ main {
 
         .sect_header {
             span {
-                font-family: $Courge_family;
-                font-size: 30px;
-                line-height: 1.2;
-                color: #d61c22;
+                @extend %span;
             }
 
             h3 {
-                font-family: $Poppins_family;
-                font-weight: 700;
-                font-size: 50px;
-                line-height: 1.2;
-                color: #222222;
-                text-transform: uppercase;
-                letter-spacing: 10px;
-                word-spacing: 8px;
+                
+                @extend %h3;
             }
         }
 
@@ -315,21 +293,12 @@ main {
 
         .sect_header {
             span {
-                font-family: $Courge_family;
-                font-size: 30px;
-                line-height: 1.2;
-                color: #d61c22;
+                @extend %span;
             }
 
             h3 {
-                font-family: $Poppins_family;
-                font-weight: 700;
-                font-size: 50px;
-                line-height: 1.2;
-                color: #222222;
-                text-transform: uppercase;
-                letter-spacing: 10px;
-                word-spacing: 8px;
+                
+                @extend %h3;
             }
         }
 
@@ -391,21 +360,12 @@ main {
 
         .heading {
             span {
-                font-family: $Courge_family;
-                font-size: 30px;
-                line-height: 1.2;
-                color: #d61c22;
+                @extend %span;
             }
 
             h3 {
-                font-family: $Poppins_family;
-                font-weight: 700;
-                font-size: 50px;
-                line-height: 1.2;
-                color: #222222;
-                text-transform: uppercase;
-                letter-spacing: 10px;
-                word-spacing: 8px;
+              
+                @extend %h3;
             }
         }
 
@@ -516,21 +476,13 @@ main {
                 align-items: center;
 
                 span {
-                    font-family: $Courge_family;
-                    font-size: 30px;
-                    line-height: 1.2;
-                    color: #d61c22;
+                   
+                @extend %span;
                 }
 
                 h3 {
-                    font-family: $Poppins_family;
-                    font-weight: 700;
-                    font-size: 50px;
-                    line-height: 1.2;
-                    color: $white_color;
-                    text-transform: uppercase;
-                    letter-spacing: 10px;
-                    word-spacing: 8px;
+                    
+                @extend %h3;
                 }
 
                 .play_btn {
