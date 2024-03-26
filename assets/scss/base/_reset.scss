@@ -26,6 +26,10 @@ time, mark, audio, video {
 }
 a{
     text-decoration: none;
+	transition: .4s all;
+	&:hover{
+		color: $red_color !important;
+	}
 }
 body {
 	line-height: 1;

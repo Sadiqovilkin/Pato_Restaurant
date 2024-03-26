@@ -1,6 +1,6 @@
 @import "vendors/links"; 
-@import "base/reset"; 
 @import "partial/variables"; 
+@import "base/reset"; 
 @import "partial/mixin"; 
 @import "partial/extend"; 
 @import "components/pagetittle"; 
@@ -12,4 +12,5 @@
 @import "pages/menu"; 
 @import "pages/reservation"; 
 @import "pages/contact"; 
+@import "pages/blog"; 
 @import "layout/footer"; 
